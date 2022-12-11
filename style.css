@@ -9,14 +9,14 @@ body {
     background: #000;
 }
 
-section {
+.banner-section {
     position: relative;
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
 }
 
-section::before {
+.banner-section::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -25,7 +25,7 @@ section::before {
     z-index: 100;
 }
 
-section img {
+.banner-section img {
     position: absolute;
     top: 0;
     left: 0;
